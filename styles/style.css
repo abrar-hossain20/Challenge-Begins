@@ -112,17 +112,12 @@ header{
 
 .devcontainer1{
     display: flex;
+    justify-content: space-between;
     padding: 50px 0;
-}
-.devcontainerDes{
-    flex: 1;
 }
 .devcontainerDes p{
     margin-top: 16px;
     margin-bottom: 32px;
-}
-.devcontainerImg{
-    flex: 1;
 }
 
 
