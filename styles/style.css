@@ -28,15 +28,14 @@ body{
 
 main{
     max-width: 1120px;
-    margin:70px 150px 50px      ;
+    margin:50px 150px 50px;
     border: 2px solid red;
-    height: 3000px;
 }
 
 /* header section */
 header{
     max-width: 1420px;
-    height: 730px;
+    height: 650px;
     background-image: url('/assets/Hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -180,3 +179,60 @@ text-decoration-line: underline;
     background: rgba(255, 223, 0, 0.05);
 }
 
+/* support section */
+
+.support{
+    max-width: 1120px;
+    height: 315px;
+    border: 2px solid rebeccapurple;
+    padding: 65px 50px;
+    background-image: url('/assets/handshake.jpg');
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url('/assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    margin-bottom: 50px;
+    border: 2px solid tomato;
+}
+.support h3{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+.support p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+    width: 600px;
+    height: 50px;
+    margin: 15px auto 25px;
+}
+.support #txt{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 550px;
+    height: 60px;
+    padding: 20px;
+}
+.support #btn{
+    width: 120px;
+    height: 60px;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
