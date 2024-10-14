@@ -76,8 +76,7 @@ header{
 /* main section */
 
 .whyDev{
-    padding: 40px 90px; 
-    height: auto;
+    padding: 40px 90px 0px; 
 }
 .whyDevDes{
     padding: 0 45px;
@@ -120,4 +119,19 @@ header{
     margin-bottom: 32px;
 }
 
+/* Inspire section */
+
+.inspireDes{
+    max-width: 850px;
+    margin: 50px auto;
+}
+.inspireVideo{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+}
+.inspireVideo iframe{
+    width: 1075px;
+    height: 550px;
+}
 
