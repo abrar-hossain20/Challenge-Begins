@@ -135,3 +135,48 @@ header{
     height: 550px;
 }
 
+/* current target section */
+
+.currentTarget{
+    margin: 100px 0px;
+}
+.currentTarget p{
+    max-width: 850px;
+    margin: 25px auto 50px;
+}
+
+.cards{
+    display: flex;
+    gap: 25px;
+}
+.card{
+    max-width: 360px;
+    padding: 40px;
+    border-radius: 16px;
+}
+.card h4{
+    margin-top: 20px;
+}
+.card p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    opacity: 0.7;
+    margin: 5px auto 20px;
+}
+.card a{
+    color: rgb(13, 19, 33);
+font-weight: 700;
+text-align: left;
+text-decoration-line: underline;
+}
+.cardA{
+    background: rgba(255, 76, 30, 0.05);
+}
+.cardB{
+    background: rgba(0, 76, 232, 0.05);
+}
+.cardC{
+    background: rgba(255, 223, 0, 0.05);
+}
+
